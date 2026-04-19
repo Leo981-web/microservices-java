@@ -32,7 +32,7 @@ public class ProductController {
 
         String port = environment.getProperty("local.server.port");
 
-        String environmentMsg = "Product-service running on port " + port;
+        String environmentMsg = "Product-service running on Port " + port;
 
         ProductDTO dto = new ProductDTO(
                 product.getId(),
